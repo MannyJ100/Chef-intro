@@ -22,12 +22,18 @@ describe service('nginx') do
 	it {should be_enabled}
 end
 
+describe port(80) do
+  it { should be_listening }
+end
+
+describe http('http://localhost', enable_remote_worker: true) do
+	its('status') { should cmp 502 }
+end
+
 # Install Nodejs
 describe package('nodejs') do
 	it {should be_installed}
 	its('version') { should match /6\../}
 end
 
-describe port(80) do
-  it { should be_listening }
-end
+
