@@ -1,4 +1,17 @@
-# node
+# Node
+# Chef Cookbook
 
-TODO: Enter the cookbook description here.
+TODO: Creating a node cookbook
+
+- Installed nginx (Package and service)
+
+
+- Created nginx template in order to reverse proxy and listen on port 80 instead of 3000 (proxy.conf.erb)
+
+
+- Installed nodejs (remote file/execute/package)
+
+
+- Ran tests on: 
+1) Package 2) Service 3) port(80) 4) Localhost 5)NodeJS and version
 
