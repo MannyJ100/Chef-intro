@@ -6,7 +6,7 @@ TODO: Creating a node cookbook
 - Installed nginx (Package and service)
 
 
-- Created nginx template in order to reverse proxy and listen on port 80 instead of 3000 (proxy.conf.erb)
+- Created nginx template in order to reverse proxy and redirect port:3000 to listen on port:80 (proxy.conf.erb)
 
 
 - Installed nodejs (remote file/execute/package)
