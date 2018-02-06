@@ -1,0 +1,7 @@
+DEPENDENCIES
+  node
+    path: .
+    metadata: true
+
+GRAPH
+  node (0.1.0)
