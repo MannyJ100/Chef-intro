@@ -3,6 +3,8 @@
 
 TODO: Creating a node cookbook
 
+- Edited .kitchen.yml platform block
+
 - Installed nginx (Package and service)
 
 
@@ -14,4 +16,8 @@ TODO: Creating a node cookbook
 
 - Ran tests on: 
 1) Package 2) Service 3) port(80) 4) Localhost 5)NodeJS and version
+
+#How to use:
+
+1) in your terminal git clone the repository from: https://github.com/MannyJ100/Cookbook-Node
 
